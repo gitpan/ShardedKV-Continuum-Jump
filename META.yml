@@ -19,4 +19,7 @@ no_index:
     - inc
 requires:
   Algorithm::ConsistentHash::JumpHash: 0.03
-version: 0.02
+  JSON::XS: 2.29
+  Moose: 2.0
+  ShardedKV: 0.20
+version: 0.03
